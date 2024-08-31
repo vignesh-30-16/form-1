@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>team A</title>
+    <style>
+        .body{
+   
+   width: 400px;
+   padding: 5px;
+   height: 100%;
+  
+
+ }
+ .head{
+    text-align: center;
+    background-color: paleturquoise;
+ }
+ .first{
+    border: 20px;
+    border: 5px solid;
+   width: 400px;
+   padding: 3px;
+   border: center solid;
+   height: 100%;
+   background-color: aquamarine;
+   
+ }
+    </style>
+ 
+</head>
+<body class="body">
+    <div class="first">
+    <h1 class="head">   Travel Participant Agreement Form </h1>
+    <form action="./teamA2.html">
+        <div>
+        <h2>Participant Information</h2>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name"><br><br>
+        <label for="date">D.O.B</label>
+        <input type="date" name="date" id="date">
+        <h4>Gender</h4>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" value="male"><br><br>
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female" value="female"><br><br>
+        <label for="others">Others</label>
+        <input type="radio" name="Gender" id="others" value="others"><br><br>
+        <label for="upload">Photo Copy:</label>
+        <input type="file" name="Upload" id="Upload" required><br><br>
+        <label for="Nationality">Nationality</label>
+        <select name="Nationality" id="Nationality">
+        <option value="Indian">Indian</option>
+        <option value="European">European</option>
+        <option value="North African">North African</option>
+        <option value="South American">South American</option>
+        </select><br><br>
+        <label for="pass">Passport Number:-</label>
+        <input type="text" name="pass" id="pass"><br><br>
+        <label for="number">Aadhar Number:</label>
+        <input type="tel" name="number" id="number" placeholder="1232-4563-7890" required maxlength="12"><br><br>
+        <label for="contact">Emergency Contact Name: -</label>
+        <input type="text" name="contact" id="contact"><br><br>
+        <label for="number">Emergency Contact Phone Number: -</label>
+        <input type="text" name="number" id="number">
+        <h4>Are you fully vaccinated:</h4>
+        <label for="yes">Yes</label>
+        <input type="radio" name="vaccinated:" id="yes" value="yes">
+        <label for="no">No</label>
+        <input type="radio" name="vaccinated:" id="no" value="no"><br><br>
+        <h4>Do you have any pre-existing medical conditions:</h4>
+        <label for="yes">Yes</label>
+        <input type="radio" name="conditions:" id="yes" value="yes">
+        <label for="no">No</label>
+        <input type="radio" name="conditions:" id="no" value="no"><br><br>
+        <label for="yes">If yes, please specify: -</label>
+        <textarea name="yes" id="yes"></textarea>
+        <h4>Are you currently taking any medications:</h4>
+        <label for="yes">Yes</label>
+        <input type="radio" name="medications:" id="yes" value="yes">
+        <label for="no">No</label>
+        <input type="radio" name="medications:" id="no" value="no"><br><br>
+        <label for="yes">If yes, please List: -</label>
+        <textarea name="yes" id="yes"></textarea>
+        <h4>Do you authorize emergency medical treatment if necessary during the flight:</h4>
+        <label for="yes">Yes</label>
+        <input type="radio" name="flight:" id="yes" value="yes">
+        <label for="no">No</label>
+        <input type="radio" name="flight:" id="no" value="no"><br><br>
+        <h4>Please select your preferred payment method:-</h4>
+        <label for="Card">Card</label>
+        <input type="radio" name="method: - " id="card" value="card">
+        <label for="cash">Cash</label>
+        <input type="radio" name="method: - " id="cash" value="cash">
+        <label for="upi ">UPI</label>
+        <input type="radio" name="method" id="upi" value="upi"><br><br>
+        <label for="Scanned">Scanned Signature: - </label>
+        <input type="file" name="Scanned" id="Scanned">
+        <div>
+            <input type="submit" value="Next button">
+        </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
